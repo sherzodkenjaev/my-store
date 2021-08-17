@@ -36,9 +36,9 @@ function RightBody() {
       <Route path="/hddssd">{productItems("hddssd")}</Route>
       <Route path="/accessories">{productItems("accessory")}</Route>
       <Route exact path="/">
-        <Redirect to="/home" />
+        <Redirect to="/my-store" />
       </Route>
-      <Route path="/home">
+      <Route path="/my-store">
         <Search />
       </Route>
     </div>
