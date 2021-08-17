@@ -1,0 +1,56 @@
+.basket {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.top_table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top_table > h2 {
+  border-bottom: 0.5px solid lightgray;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.basket_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basket_items > h3 {
+  border-bottom: 0.5px solid lightgray;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+.red_icon {
+  color: red;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total > h2 {
+  border-bottom: 0.5px solid lightgray;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+.red_text {
+  color: red;
+}

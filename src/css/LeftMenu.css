@@ -1,0 +1,18 @@
+.left_menu {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  padding: 20px;
+}
+
+.item {
+  text-decoration: none;
+  padding: 15px;
+  border-bottom: 0.1px solid lightgray;
+  color: rgb(70, 69, 69);
+  font-size: 13px;
+}
+
+.item:hover {
+  background-color: whitesmoke;
+}

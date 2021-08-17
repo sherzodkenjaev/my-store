@@ -1,0 +1,6 @@
+.right_body {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+  padding: 20px;
+}
