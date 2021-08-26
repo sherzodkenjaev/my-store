@@ -39,7 +39,7 @@ function Basket() {
       <div className="total">
         <h2>Totoal</h2>
         <h2>${getBasketTotal(items)}</h2>
-        <h2 className="red_text">Remove All</h2>
+        <h2 className="red_text">Checkout not working</h2>
       </div>
     </div>
   );

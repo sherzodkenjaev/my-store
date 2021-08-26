@@ -15,7 +15,9 @@ function App() {
             <Basket />
           </Route>
           <Route path="/login">
+            <Header />
             <h1>This is login page</h1>
+            <h1>Will work soon</h1>
           </Route>
           <Route path="/register">
             <h1>This is you know what</h1>
